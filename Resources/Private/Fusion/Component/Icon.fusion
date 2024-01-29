@@ -1,0 +1,31 @@
+prototype(NeosLoves.Iconify:Icon) < prototype(Neos.Fusion:Component) {
+  name = ''
+  color = null
+  width = null
+  height = null
+  inline = null
+  hFlip = null
+  vFlip = null
+  flip = null
+  rotate = null
+  align = null
+  box = null
+
+  renderer = Neos.Fusion:Augmenter {
+    content = ${NeosLoves.Iconify.getSvg(
+      props.name,
+      {
+        color: props.color,
+        width: props.width,
+        height: props.height,
+        inline: props.inline,
+        hFlip: props.hFlip,
+        vFlip: props.vFlip,
+        flip: props.flip,
+        rotate: props.rotate,
+        align: props.align,
+        box: props.box
+      }
+    )}
+  }
+}

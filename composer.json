@@ -1,0 +1,20 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "neosloves/iconify",
+    "require": {
+        "neos/flow": "*",
+        "iconify/json": "^2.2",
+        "iconify/json-tools": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeosLoves\\Iconify\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "NeosLoves.Iconify"
+        }
+    }
+}

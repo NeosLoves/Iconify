@@ -1,0 +1,8 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        NeosLoves.Iconify: true
+  Fusion:
+    defaultContext:
+      'NeosLoves.Iconify': NeosLoves\Iconify\Eel\Helper\IconifyHelper
