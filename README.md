@@ -1,4 +1,4 @@
-# NesLoves.Iconify
+# NeosLoves.Iconify
 Insert icons from the [Iconify](https://iconify.design)-Framework as SVG in a fusion template
 
 ## Usage
